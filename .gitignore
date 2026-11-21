@@ -1,0 +1,23 @@
+# 大文件与 Office 文档不进仓库（保留在本地 D 盘）
+*.pdf
+*.docx
+*.xlsx
+~$*
+_build/
+
+# 编译产物
+*.o
+*.out
+a.out
+hello
+swap
+temp
+leap
+table9
+sum100
+guess
+minmax
+prime
+daffodil
+fib
+count
