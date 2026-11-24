@@ -5,19 +5,14 @@
 ~$*
 _build/
 
-# 编译产物
+# 编译产物：02_code 下只跟踪 .c 源文件
+02_code/*/*
+!02_code/*/*.c
+
+# 其他常见产物
 *.o
 *.out
 a.out
-hello
-swap
-temp
-leap
-table9
-sum100
-guess
-minmax
-prime
-daffodil
-fib
-count
+
+# 调试照片不入库
+04_hardware/board-lesson1/photo*.jpg
