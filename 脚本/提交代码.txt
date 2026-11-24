@@ -1,0 +1,1 @@
+bash scripts/git-sync.sh "feat(w1): 完成变量与运算符 8 道题"
